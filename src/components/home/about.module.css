@@ -1,0 +1,77 @@
+.card{
+    width: 80%;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top:0%;
+    padding-left: 40px;
+}
+.card>.image{
+    padding-top: 8%;
+}
+.card>.image>img{
+    border: 8px solid lightgray;
+    border-radius:50%;
+}
+.card>.image>.big{
+    font-size: 2rem;
+    padding-left:25%;
+    margin: 0px;
+    color: black;
+}
+.card>.image>.small{
+    font-size: 15px;
+    padding-left:35%;
+    color: rgb(123, 122, 122);
+}
+.info{
+    margin:0px;
+    padding-left: 10vw;
+
+}
+.info>.us{
+    font-size: 45px;
+    padding-left:0%;
+    top: 0px;
+}
+.info>.small{
+    width: 40%;
+    word-wrap:break-word;
+    color: #4d4d4d;
+}
+.info>.some{
+    color: rgb(133, 131, 131);
+}
+.info>.personal{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+.personalInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.name{
+    color: rgb(24, 23, 23);
+    font-size: medium;
+    line-height: 30px;
+}
+.download{
+    height: 50px;
+    width: 145px;
+    color:white;
+    background-color:rgb(73, 167, 73);
+    border:1px solid white;
+    border-radius: 3px;
+}
+.download:hover{
+    background-color: black;
+    transition-duration: 2s;
+}
+
+

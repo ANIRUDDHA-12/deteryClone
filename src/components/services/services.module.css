@@ -1,0 +1,54 @@
+.card{
+    background-color: #2b3940;
+}
+
+.service{
+    height: 100vh;
+    width: 80%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    background-color: #2b3940;
+    margin: auto;
+}
+
+.content{
+    width: 25vw;
+    height: 35vh;
+    background-color:white;
+    padding-top: 2%;
+    margin-top: 20px;
+
+}
+
+.content:hover{
+    background-color:rgb(73, 167, 73) ;
+    transition-duration: 2s;
+}
+
+.me{
+    font-size: 2rem;
+    margin: auto;
+    padding-top: 8vh;
+    color: white;
+}
+.horizontal{
+    width: 3vw;
+    height: 2px;
+    background-color: rgb(73, 167, 73);
+}
+.content>img{
+    margin-right:60%;
+    margin-top:8%;
+}
+.title{
+    text-align: left;
+    padding-left: 1%;
+}
+.any{
+    text-align: left;
+    padding-left: 1%;
+    color: lightgray;
+}

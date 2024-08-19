@@ -1,0 +1,129 @@
+.skill{
+    height:80vh;
+    width: 100%;
+}
+.title{
+    color: black;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+
+}
+
+.horizontal{
+    width: 3vw;
+    height: 1.3px;
+    background-color: rgb(73, 167, 73);
+}
+
+.show{
+    display: grid;
+    height: 52vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.left{
+    height: 58vh;
+    width: 75%;
+    border: 1px solid white;
+    color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.year{
+    background-color:rgb(73, 167, 73);
+    width: 20%;
+    padding:4px;
+    margin-left: 20px;  
+}
+
+.mid{
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left:20px;
+    margin:0px;
+}
+
+.progress{
+    height: 15px;
+    width: 70%;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
+
+.last{
+    color: gray;
+    font-size: 1rem;
+    text-align:left;
+    margin-left:20px;
+    margin-top: 0px;
+}
+
+.sort{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.slant{
+    width: 80%;
+    height: 0.1px;
+    background-color:gray;
+}
+.number{
+    width: 4%;
+    height: 15px;
+    align-items: left;
+    font-size: 1.4rem;
+    margin-top: 2%;
+}
+
+.progress1{
+    height: 15px;
+    width: 30vw;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
+
+.progress2{
+    height: 15px;
+    width: 60%;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
+
+.progress3{
+    height: 15px;
+    width: 60%;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
+
+.progress4{
+    height: 15px;
+    width: 60%;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+}
+
+

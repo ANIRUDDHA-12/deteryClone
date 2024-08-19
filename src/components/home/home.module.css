@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.home{
+    width: 100%;
+    height: 10vh;
+    margin: 0px;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.home>.ul{
+    display: flex;
+    gap: 5px;
+    font-family:Open Sans, sans-serif;
+    justify-content: flex-end !important;
+    margin: 15px;
+    list-style: none;
+    gap: 65px;
+    list-style: none;
+
+
+}
+.home>.ul>li{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+span{
+    margin: 0px;
+    padding: 0px;
+}
+.home:hover{
+    color:rgb(74, 168, 74);
+}
+

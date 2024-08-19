@@ -1,0 +1,48 @@
+.portfolio{
+    width: 100%;
+    height: auto;
+    background-color: rgb(43, 57, 64);
+}
+
+.title{
+    font-size: 3rem;
+    color:white;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0px;
+}
+
+.horizontal{
+    width: 60px;
+    height: 0.5px;
+    background-color: green;
+}
+
+.list{
+    display:flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    color: white;
+    padding-top:20px ;
+}
+.list>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.list>a:hover{
+    text-decoration: underline;
+    color: #4caf50;
+}
+
+.picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 75%;
+    margin:  auto;
+    margin-top: 6vh;
+    background-color:rgb(43, 57, 64);
+    gap: 20px;
+}
